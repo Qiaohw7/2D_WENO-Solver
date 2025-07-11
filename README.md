@@ -6,4 +6,5 @@ Due to the high programming complexity of CUDA and CUDA Fortran, this project em
 The project consists of two main components:
   1. ​​Kokkos-Fortran Interface​​: Developed to enable seamless Kokkos calls from Fortran.
   2. ​​WENO Flow Solver Implementation​​: Built under the simulation/directory, this 2D weighted essentially non-oscillatory (WENO) solver uses Kokkos' specialized syntax to automatically translate Fortran code into GPU-executable Kokkos kernels.
+
 The compilation process and file directory structure are detailed in the project's CMakeLists.txt. We welcome discussion and collaboration with fellow researchers.
